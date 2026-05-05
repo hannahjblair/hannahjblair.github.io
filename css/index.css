@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+img {
+    width: 200px;
+    border-radius: 70px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+h1 {
+   font-size: 1.2em; 
+}
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    ul {
+        font-size: 1.5em;
+    }
+}
