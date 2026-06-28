@@ -16,7 +16,8 @@ body {
        }
        h1,
        h2,
-       a {
+       a,
+       .lang-container {
           margin-left: 20px;
        }
        .header {
